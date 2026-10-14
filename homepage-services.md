@@ -92,6 +92,8 @@ Demo 嵌入失败时可显示静态截图与文字说明。免费发布数量、
 
 低频更新可用本地 Markdown 或现有配置，无新增服务费。若用外部 CMS，可在构建时生成内容或使用缓存，降低 CMS 短暂异常对首页阅读的影响。
 
+更多候选与取舍见 [CMS 调研：Sanity、Payload、Strapi、Decap](cms-research.md)。
+
 <a id="auth"></a>
 ### 8. 账号与登录
 
