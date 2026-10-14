@@ -27,29 +27,6 @@
 
 上表的设计站点用于制作阶段：选结构、看视觉与效果、确定配色。具体参考各站点中的相关案例，统一到同一套品牌表达。
 
-### 可选业务服务与引入条件
-
-下面记录预约、表单、媒体托管等运行时能力。按实际业务需要接入；设计参考站点无需接入产品。
-
-| Section | 可选业务服务 / 引入条件 |
-| --- | --- |
-| **Header / Navigation 导航** | 通常仅链接现有产品登录；新建账号系统时可选 [Clerk / Supabase](homepage-services.md#auth)。 |
-| **Hero 首屏** | 可选 [预约](homepage-services.md#booking)或[线索表单](homepage-services.md#forms)；首屏画面可用[媒体服务](homepage-services.md#media)。 |
-| **Social Proof 信任背书** | Logo 与评价可静态展示；需要持续收集评价时可选 [Senja](homepage-services.md#testimonials)。 |
-| **Product Demo 产品演示** | 可选 [Storylane / Arcade](homepage-services.md#demos) 或[图片视频托管](homepage-services.md#media)；也可直接展示本地素材。 |
-| **Core Benefits 核心价值** | 通常静态内容即可；频繁编辑时可选 [CMS](homepage-services.md#cms)，图片可用[媒体服务](homepage-services.md#media)。 |
-| **Feature Deep Dives 重点功能展开** | 按展示方式选 [CMS](homepage-services.md#cms)、[媒体](homepage-services.md#media)或[交互 Demo](homepage-services.md#demos)。 |
-| **Use Cases 使用场景** | 通常静态即可；多人维护场景与案例时可选 [CMS](homepage-services.md#cms)。 |
-| **How It Works 上手流程** | 步骤说明通常静态即可；需要演示才用 [Demo](homepage-services.md#demos)，预约辅导才用[预约服务](homepage-services.md#booking)。 |
-| **Integrations / Compatibility 集成与兼容** | 兼容性清单通常静态即可；真实 OAuth/API 接入属于产品功能，按实际集成选型。 |
-| **Customer Stories 客户案例** | 可选 [评价收集](homepage-services.md#testimonials)、[CMS](homepage-services.md#cms)与[媒体](homepage-services.md#media)，也可静态发布获授权案例。 |
-| **Pricing Preview 价格概览** | 价格展示读取自身价格配置；点击后需收款时可选 [Stripe](homepage-services.md#payments)。展示价格本身无需支付服务。 |
-| **FAQ 常见问题** | FAQ 通常静态即可；需要人工答疑时可选 [tawk.to](homepage-services.md#chat)，频繁维护时可选 [CMS](homepage-services.md#cms)。 |
-| **Final CTA 底部行动区** | 按主要行动选[表单](homepage-services.md#forms)、[预约](homepage-services.md#booking)或[账号系统](homepage-services.md#auth)；回执、订阅可用[邮件服务](homepage-services.md#email)。 |
-| **Footer 页脚** | 可链接[状态页](homepage-services.md#status)；Newsletter 可用[邮件服务](homepage-services.md#email)，联系入口可用[表单](homepage-services.md#forms)或[客服](homepage-services.md#chat)。 |
-
-全站分析可另选 [Analytics](homepage-services.md#analytics)，自建表单可按需要加 [Turnstile 防机器人](homepage-services.md#anti-bot)。免费额度、付费方案和稳定性说明见 [首页业务服务候选清单](homepage-services.md)。
-
 ## 二、新产品起步版
 
 可以先采用下面的精简结构，再随真实内容和证据增加区块：
@@ -100,7 +77,6 @@ Footer
 | 布局 | 图文关系、列数、内容优先级；Layout 参考 |
 | 视觉与效果 | 主要视觉案例、配色参考，以及适合当前内容的动效表达 |
 | 取舍 | 独立保留、与其他 section 合并，或暂时省略 |
-| 服务依赖 | 引入原因、候选服务与免费限制、故障时的替代入口；能复用现有能力时优先复用 |
 
 结构清楚后，再进入字体、配色、图像、质感和动效设计。参考资源见 [网站设计参考：结构、视觉与配色](website-design-references.md)。
 
