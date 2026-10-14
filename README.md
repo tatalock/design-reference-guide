@@ -4,5 +4,6 @@
 
 - [网站设计参考：结构、视觉与配色](website-design-references.md)
 - [产品首页常见 Section 拆分](homepage-sections.md)
+- [首页第三方服务候选清单：免费额度与稳定性](homepage-services.md)
 
 使用分工：Relume 做页面结构，案例与模板站做视觉参考，配色工具建立颜色系统。
